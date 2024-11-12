@@ -6,8 +6,11 @@ Designed to withstand real-world use, the system can automatically reset interfa
 # Features:
 
 **Multi-interface Monitoring:** Tracks multiple network interfaces simultaneously, capturing essential metrics such as operational status, up/down counts, bytes transmitted/received, and error rates.
+
 **Socket Programming:** Implements synchronous communication between the main network monitor and individual interface monitors, ensuring accurate data exchange and coordination.
+
 **Controlled Shutdown with Signal Handling:** Supports graceful termination using SIGINT handling, ensuring smooth shutdown, resource cleanup, and prevention of data corruption.
+
 **Resilience and Self-healing:** Includes automatic reset functionality for interfaces that go down, enhancing system robustness and uptime.
 
 **Results:** Tested for continuous data polling and real-time statistical reporting, proving its reliability in monitoring network performance with accurate and timely metrics.
