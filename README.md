@@ -14,3 +14,10 @@ Designed to withstand real-world use, the system can automatically reset interfa
 **Resilience and Self-healing:** Includes automatic reset functionality for interfaces that go down, enhancing system robustness and uptime.
 
 **Results:** Tested for continuous data polling and real-time statistical reporting, proving its reliability in monitoring network performance with accurate and timely metrics.
+
+**Makefile Automation**
+To streamline development, I designed a Makefile that automates the compilation and build processes. Highlights include:
+
+**Selective Debugging:** make debug builds the project with debug flags, allowing me to trace execution effectively.
+**Run Automation:** make run launches the network monitor with sudo to access interfaces, saving time during testing.
+**Clean-Up Command:** make clean removes compiled objects and executables in seconds, keeping the workspace organized.
