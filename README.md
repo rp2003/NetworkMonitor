@@ -15,7 +15,7 @@ Designed to withstand real-world use, the system can automatically reset interfa
 
 **Results:** Tested for continuous data polling and real-time statistical reporting, proving its reliability in monitoring network performance with accurate and timely metrics.
 
-**Makefile Automation**
+# Makefile Automation
 To streamline development, I designed a Makefile that automates the compilation and build processes. Highlights include:
 
 **Selective Debugging:** make debug builds the project with debug flags, allowing me to trace execution effectively.
